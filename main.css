@@ -1,0 +1,524 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+
+}
+
+.resume {
+    margin: 0;
+}
+.resume .right p {
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 1px;
+    color: gray;
+}
+.resume .left h2 {
+    color: blue;
+}
+.resume .right{
+    padding: 40px
+}
+.resume .left{
+    color: grey;
+    font-size: smaller;
+    text-align: left;
+    padding: 40px 40px 150px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    background: rgb(255, 255, 255);
+    padding: 0 30px;
+    top: 0;
+    position: sticky;
+}
+
+
+ul {
+    display: flex;
+    overflow: hide;
+}
+
+li {
+    margin: 20px;
+    list-style: none;
+}
+.para1 {
+    color: grey;
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgb(87, 87, 87);
+    cursor: pointer;
+}
+
+ul li a:focus {
+    border-bottom: 2px solid blue;
+}
+ul li a:hover{
+    border-bottom: 2px solid blue;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+.job {
+    color: rgb(87, 87, 87);
+    font-size: 18px;
+    margin-top: 10px;
+}
+.squar {
+    width: 25px;
+    height: 25px;
+    background: blue;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.squar:hover {
+    transition: 0.3s;
+    width: 27px;
+    height: 27px;
+    background: red;
+    margin-right: 11px;
+    cursor: pointer;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+}
+.content {
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: 1fr 1fr;
+    margin: 0;
+    width: 70%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.left {
+    background: rgba(255, 255, 255, 0.753);
+    /* width: 40%; */
+    justify-content: center;
+    align-items: center;
+    
+    text-align: center;
+}
+
+.name h3{
+    font-size: 20px;
+    font-weight:900;
+}
+.img img{
+    border-radius: 50%;
+    cursor: pointer;
+}
+.img img:hover{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.img {
+    justify-content: center;
+    padding: 30px;
+}
+
+.underline {
+    display: flex;
+    justify-content: center;
+}
+
+.line {
+    width: 80px;
+    height: 2px;
+    background: blue;
+    cursor: pointer;
+}
+.line:hover {
+    transition: 1s;
+    background: #000;
+    width: 150px;
+}
+.right {
+    background: rgb(255, 255, 255);
+    /* width: 60%; */
+    padding: 0 20px;
+}
+
+.header{
+    font-size: 50px;
+}
+
+
+.main-right .para p{
+    color: gray;
+}
+
+
+button {
+    padding: 10px 30px;
+    margin: 20px 0;
+    border: none;
+    border: 2px solid blue;
+    cursor: pointer;
+}
+
+button:focus {
+    background: blue;
+    color: #fff;
+}
+
+.b-para {
+    margin-top: -6%;
+}
+.b-para {
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    padding-top: 0;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+button:hover {
+    background: blue;
+    color: #fff;
+}
+
+.space {
+    letter-spacing:9px;
+}
+
+
+.footer-card{
+    background: #fff;
+    padding: 10px;
+}
+
+.footer-card .icon {
+    display: flex;
+    justify-content: center;
+}
+
+/* Resume */
+
+.left-top {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
+}
+.resume {
+    margin-top: 10%;
+}
+
+/* Soft-skill */
+.soft-skill{
+    width: 70%;
+    background: #fff;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+
+.skill {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+    'logo' 'logo'
+    'logo' 'logo';
+}
+.main-skill {
+    margin-top: 6%;
+}
+.main-skills {
+    padding: 15px;
+}
+
+/* Project */
+.para {
+    width: 70%;
+    margin: 0 auto;
+    letter-spacing: 1px;
+}
+.pro-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 70%;
+    background: #fff;
+    margin: 0 auto;
+    margin-top: 5%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.pro-title {
+    display: flex;
+    align-items: center;
+}
+.pro-l .para1 {
+    padding: 15px;
+}
+.pro-r {
+    width: 100%;
+
+}
+.pro-squar {
+    width: 5px;
+    height: 8vh;
+    background: blue;
+    margin-right: 10px;
+}
+.pro-name {
+    margin: 0;
+}
+.pro-mt{
+    margin-top: 1%;
+}
+.pro-name h5 {
+    margin-top: -10%;
+    font-weight: lighter;
+}
+.pro-name h2 {
+    color: blue;
+    font-weight: bolder;
+}
+
+/* Contact */
+.form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-all {
+    background: #fff;
+    width: 70%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.col-2 {
+    display: flex;
+}
+.first {
+    width: 100%;
+}
+.last {
+    width: 100%;
+}
+.form-group {
+    margin: 20px;
+    box-sizing: border-box;
+}
+.form-control {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 0 auto;
+    border: none;
+    border-bottom: 2px solid;
+    outline: none;
+}
+.form-control:hover {
+    transition: 1s;
+    border: none;
+    border-bottom: 2px solid blue;
+    outline: none;
+}
+.btn-form {
+    margin: 3%;
+}
+textarea {
+    resize: none;
+}
+::placeholder {
+    color: blue;
+}
+.btn-form {
+    border-radius: inherit;
+    background: blue;
+    color: #fff;
+}
+.btn-form:hover {
+    transition: .5s;
+    border-radius: inherit;
+    background: rgba(255, 255, 255, 0.795);
+    color: rgb(7, 44, 255);
+}
+span {
+    color: blue;
+}
+input:focus {
+    top: -5px;
+    color: blue;
+}
+/* footer */
+footer {
+    display: flex;
+    width: 100%;
+    margin-top: 10%;
+}
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    background: #fff;
+    color: gray;
+    text-align: center;
+    padding: 30px;
+}
+
+
+.p{
+    padding: 5px 10px;
+}
+
+/* Margin */
+.m-icon {
+    margin: 0 20px;
+}
+.m-auto {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.m-t {
+    margin-bottom: -5%;
+}
+
+.m-top-b {
+    margin-top: 15%;
+    margin-bottom: 5%;
+}
+.m-t {
+    margin-top: 40px;
+}
+
+.mb-footer {
+    margin-bottom: -5%;
+}
+
+.ml-icon-footer {
+    margin-left: 10px;
+}
+/* link */
+.link-black {
+    color: black;
+}
+.link-black:hover {
+    color: blue;
+}
+
+
+
+
+
+
+
+.t-center {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 10% 0;
+}
+.flex-icon {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.spece-bt {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.icon-footer {
+    margin-left: 15px;
+}
+a {
+    color: rgb(113, 126, 243);
+}
+
+@media only screen and (max-width: 800px) {
+
+    .content {
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .left {
+      width: 100%;
+    }
+    .container {
+        width: 87.6%;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .logo {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    nav {
+        width: 90%;
+        font-size: smaller;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer {
+        width: 100%;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    }
+    .left-f {
+        text-align: center;
+        display: flex;
+    }
+    .soft-skill {
+        width: 90%;
+    }
+    .skill {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 10px;
+    }
+    .skill .logo .squar {
+        width: 15px;
+        height: 15px;
+        
+    }
+    .skill .logo{
+        width: 100%;
+        font-size: 15px;
+        
+    }
+    .project {
+        width: 100%;
+    }
+    .pro-content {
+        width: 90%;
+        margin: 0 auto;
+        display: inherit;
+        margin-top: 5%;
+    }
+    .form-all {
+        width: 100%;
+    }
+
+  }
